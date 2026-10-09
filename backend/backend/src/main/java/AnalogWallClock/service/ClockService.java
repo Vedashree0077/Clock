@@ -1,7 +1,8 @@
+package AnalogWallClock.service; 
 import AnalogWallClock.dto.TimeResponse; 
 import org.springframework.stereotype.Service; 
 import java.time.LocalTime; 
-import java.time.ZoneId; 
+import java.time.ZoneId;
 
 @Service 
 public class ClockService 
