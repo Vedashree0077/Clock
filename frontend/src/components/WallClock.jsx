@@ -9,7 +9,7 @@ function WallClock() {
   });
 
   useEffect(() => {
-  fetch("http://localhost:8080/api/time")
+  fetch("https://analog-wall-clock-backend.onrender.com/api/time")
     .then((response) => response.json())
     .then((data) => {
       setTime(data);
