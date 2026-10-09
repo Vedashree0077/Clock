@@ -1,9 +1,10 @@
 import AnalogWallClock.dto.TimeResponse; 
 import org.springframework.stereotype.Service; 
 import java.time.LocalTime; 
-import java.time.ZoneId; @Service 
-    public class 
-    ClockService 
+import java.time.ZoneId; 
+
+@Service 
+public class ClockService 
 { 
         public TimeResponse getCurrentTime() 
     { 
